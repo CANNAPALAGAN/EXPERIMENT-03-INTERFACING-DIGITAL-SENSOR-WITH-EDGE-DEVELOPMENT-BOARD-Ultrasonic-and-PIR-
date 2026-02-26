@@ -45,8 +45,8 @@ The Ultrasonic sensor Trig pin is connected to one of the GPIO pins of the Raspb
 The Ultrasonic sensor Echo pin is connected to one of the GPIO pins of the Raspberry Pi 4.
 The Python script sets the take the distance taken echo output and shown in Thingspeak cloud with current status and Console.
 CIRCUIT DIAGRAM
-Connect the Vcc of the Ultrasonic sensor +5V in Raspberrry Pi4.
-Connect the Gnd of the Ultrasonic sensor Gnd in Raspberrry Pi4.
+Connect the Vcc of the Ultrasonic sensor is connected to +5V in Raspberrry Pi4.
+Connect the Gnd of the Ultrasonic sensor is connected to Gnd in Raspberrry Pi4.
 Connect the Trig pin to any one GPIO.
 Connect the Echo pin to any one GPIO.
 
