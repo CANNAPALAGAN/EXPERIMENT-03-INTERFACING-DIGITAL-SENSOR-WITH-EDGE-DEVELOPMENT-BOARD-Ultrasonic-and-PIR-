@@ -33,14 +33,14 @@ The Raspberry Pi 4 Model B is built around a Broadcom BCM2711 system-on-chip tha
 ## Ultrasonic Sensor:
 An ultrasonic sensor is a distance-measuring device that uses high-frequency sound waves to detect objects and calculate how far away they are. It works by emitting ultrasonic pulses (typically around 40 kHz) and measuring the time taken for the echo to bounce back after hitting an object. Using the speed of sound in air, the sensor converts this time into distance. Ultrasonic sensors are widely used in robotics, obstacle detection, parking systems, and automation because they provide reliable, contactless measurement regardless of lighting conditions.
 <img width="600" height="411" alt="image" src="https://github.com/user-attachments/assets/d879d982-347a-45ff-92c1-b78b57e9fdef" />
-
+ ### FIGURE-02 Ultrasonic Sensor 
 
 ## PIR Sensor:
 A Passive Infrared (PIR) sensor is a motion detection device that senses changes in infrared radiation emitted by warm objects such as humans or animals. Instead of emitting signals, it passively detects heat variations within its field of view. When a warm body moves across the sensor’s detection zones, it triggers an electrical signal indicating motion. PIR sensors are commonly used in security alarms, automatic lighting systems, and energy-saving smart devices due to their low power consumption and ability to detect human presence effectively.
 <img width="428" height="494" alt="image" src="https://github.com/user-attachments/assets/bb6b0f22-33d7-4d63-b5c6-05e6d655e71d" />
-
+ ### FIGURE-03 PIR Sensor 
 ## Working Principle:
-Experiment 1A
+Experiment 3A
 The Ultrasonic sensor Trig pin is connected to one of the GPIO pins of the Raspberry Pi 4.
 The Ultrasonic sensor Echo pin is connected to one of the GPIO pins of the Raspberry Pi 4.
 The Python script sets the take the distance taken echo output and shown in Thingspeak cloud with current status and Console.
@@ -51,7 +51,7 @@ Connect the Trig pin to any one GPIO.
 Connect the Echo pin to any one GPIO.
 
 
-Experiment 1B
+Experiment 3B
 The IR sensor is connected one of the GPIO pins in Raspberry Pi 4.
 The Python script sets the PIR sensor value based on the motion detected and shown in Thingspeak and console.
 CIRCUIT DIAGRAM
@@ -72,21 +72,21 @@ Experiment 3A
 ````
 
 ### OUPUT  
-Experiment 1A
+Experiment 3A
 
-# FIGURE -02 ADD TITILE HERE 
+# FIGURE -04 ADD TITILE HERE 
 
-#  FIGURE -03 ADD TITILE HERE 
+#  FIGURE -05 ADD TITILE HERE 
 
-# FIGURE -04 ADD TITLE HERE 
+# FIGURE -06 ADD TITLE HERE 
 
 Experiment 3B
 
-# FIGURE -05 ADD TITILE HERE 
+# FIGURE -07 ADD TITILE HERE 
 
-#  FIGURE -06 ADD TITILE HERE 
+#  FIGURE -08 ADD TITILE HERE 
 
-# FIGURE -07 ADD TITLE HERE 
+# FIGURE -09 ADD TITLE HERE 
 
  
 ## RESULTS
